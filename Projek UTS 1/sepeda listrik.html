@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepeda Listrik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        nav .nav-button:hover {
+            background-color: #45a049;
+            transform: scale(1.1);
+        }
+
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .profile,
+        .table,
+        .form,
+        .login,
+        .social,
+        .slider,
+        .developer {
+            margin-bottom: 40px;
+        }
+
+        .profile img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .form input,
+        .form textarea,
+        .login input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form button,
+        .login button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form button:hover,
+        .login button:hover {
+            background-color: #45a049;
+        }
+
+        .social a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .slider img {
+            width: 15%;
+            max-height: 400px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Selamat Datang di Toko Sepeda Listrik</h1>
+        <p>Solusi modern untuk transportasi ramah lingkungan</p>
+    </header>
+
+    <nav>
+        <a href="#profile" class="nav-button">Profil</a>
+        <a href="#table" class="nav-button">Harga</a>
+        <a href="#form" class="nav-button">Pesan</a>
+        <a href="#login" class="nav-button">Login</a>
+        <a href="#social" class="nav-button">Sosial Media</a>
+        <a href="#slider" class="nav-button">Galeri</a>
+        <a href="#developer" class="nav-button">Pengembang</a>
+    </nav>
+    
+    <div class="hero">
+        <img src="foto sepeda.jpg" height="120%" width="100%">
+    </div>
+
+    <section class="section profile" id="profile">
+        <h2>Profil Usaha</h2>
+        <img src="profil.jpg" alt="Sepeda Listrik">
+        <p>Kami adalah perusahaan yang menyediakan sepeda listrik terbaik dengan teknologi modern, hemat energi, dan
+            ramah lingkungan. Sepeda kami dirancang untuk kenyamanan dan keamanan Anda.</p>
+    </section>
+
+    <section class="section table" id="table">
+        <h2>Harga Sepeda Listrik</h2>
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>Fitur</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>Model A</td>
+                <td>Baterai tahan lama, kecepatan 25 km/jam</td>
+                <td>Rp 5.000.000</td>
+            </tr>
+            <tr>
+                <td>Model B</td>
+                <td>Desain stylish, kecepatan 30 km/jam</td>
+                <td>Rp 7.500.000</td>
+            </tr>
+            <tr>
+                <td>Model C</td>
+                <td>Jarak tempuh hingga 100 km</td>
+                <td>Rp 10.000.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section form" id="form">
+        <h2>Form Pemesanan</h2>
+        <form>
+            <input type="text" placeholder="Nama Lengkap" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Alamat Lengkap" rows="4" required></textarea>
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <section class="section login" id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section class="section slider" id="slider">
+        <h2>Galeri Gambar</h2>
+        <img src="img/sepeda1.jpg" alt="Gambar Sepeda Listrik 1">
+        <img src="img/sepeda2.jpg" alt="Gambar Sepeda Listrik 2">
+        <img src="img/sepeda3.jpg" alt="Gambar sepeda Listrik 3">
+        <img src="img/sepeda4.jpg" alt="Gambar sepeda Listrik 4">
+        <img src="img/sepeda5.jpg" alt="Gambar sepeda Listrik 5">
+        <img src="img/sepeda6.jpg" alt="Gambar sepeda Liatrik 6">
+        <img src="img/sepeda8.webp" alt="gambar sepeda Listrik 8">
+        
+    </section>
+
+    <section class="section developer" id="developer">
+        <div style="display: flex;justify-content: space-between;">
+            <img style="border: 5px solid black; width: 270px;" src="img/andini.jpg">
+        <div style="margin: 0px 70px 0px 20px;">
+        <h2>Profil Pengembang</h2>
+        <p>Website ini dikembangkan oleh [Andini], seorang mahasiswa yang berpengalaman dalam pembuatan website
+            modern dan responsif.</p>
+        <section class="section social" id="social">
+            <h2>Ikuti Kami di Media Sosial</h2>
+            <p><a href="#">instagram</a>
+            <a href="#">youtube</a>
+            <a href="#">tiktok</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Sepeda Listrik. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+
+</html>

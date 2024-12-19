@@ -1,0 +1,78 @@
+.atas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bawah{
+    width: 1200px;
+    height:50px;
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    margin: 10px;
+    height: 90px;
+    display: flex;
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+.box1{
+    width: 300px;
+    background-size: 100px;
+    height: 90px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwfKACVZoVkLxvYZL8t1h5Rtao7Dvy9_YmD60XmqfDI8XblGUhJMDnJltEvuAyLXsJLw&usqp=CAU);
+    display: flex;
+}
+
+.box2{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://cdn.antaranews.com/cache/1200x800/2023/10/24/zyro-image.png.jpg);
+    display: flex;
+}
+
+.box3{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://studio.mrngroup.co/storage/app/media/Prambors/Editorial/JIMIN%20BTS-20211013045858.jpg?tr=w-600);
+}
+
+.box4{
+    width: 200px;
+    background-size:150px;
+    height: 90px;
+    background-image: url(https://studio.mrngroup.co/storage/app/media/Prambors/Editorial/JIMIN%20BTS-20211013045858.jpg?tr=w-600);
+}
+
+.box5{
+    width: 200px;
+    background-size: 150px;
+    height:90px;
+    background-image: url(https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/06/02/20230527_203915-1489182632-1810301305.jpg);
+}
+
+.box6{
+    width: 200px;
+    background-size: 150px;
+    height:90px;
+    background-image: url(https://media.suara.com/pictures/653x366/2020/10/21/77884-jimin-bts.jpg);
+}
+
+.box7{
+    width: 200px;
+    background-size: 90px;
+    height:90px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSny4PnXoYsvn0pbc8QDlr3TEcculK75Px4mbWh8chRwRRcOv4N);
+}
+
+.box8{
+    width: 200px;
+    background-size: 150px;
+    height:90px;
+    background-image: url(https://www.foto.arahkita.com/2024/05/10/992-jimin_bts__foto_koreaboo.jpg);
+}
